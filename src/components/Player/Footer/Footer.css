@@ -1,0 +1,12 @@
+.footer {
+	position: fixed;
+	display: flex;
+	justify-content: space-between;
+	bottom: 0;
+	height: 4rem;
+	width: -moz-available; /* WebKit-based browsers will ignore this. */
+	width: -webkit-fill-available; /* Mozilla-based browsers will ignore this. */
+	background-color: #282828;
+	padding: 1.25rem;
+	color: white;
+}

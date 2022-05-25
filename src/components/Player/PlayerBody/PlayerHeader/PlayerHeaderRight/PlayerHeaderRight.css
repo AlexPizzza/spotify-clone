@@ -1,0 +1,9 @@
+.playerHeaderRight {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+}
+
+.playerHeaderRight > h4 {
+	margin-left: 0.625rem;
+}

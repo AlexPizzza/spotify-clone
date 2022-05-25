@@ -1,0 +1,20 @@
+.footerLeft {
+	display: flex;
+	flex: 0.3;
+	align-items: center;
+	width: 18.75rem;
+}
+
+.footer__albumLogo {
+	object-fit: contain;
+	height: 3.75rem;
+	margin-right: 1.25rem;
+}
+
+.footer__songInfo > h4 {
+	margin-bottom: 0.313rem;
+}
+
+.footer__songInfo > p {
+	font-size: 0.75em;
+}

@@ -1,0 +1,15 @@
+.playerHeaderLeft {
+	display: flex;
+	flex: 0.5;
+	align-items: center;
+	min-width: 6.25rem;
+	background-color: white;
+	color: gray;
+	padding: 0.625rem;
+	border-radius: 1.875rem;
+}
+
+.playerHeaderLeft > input {
+	border: none;
+	width: 100%;
+}

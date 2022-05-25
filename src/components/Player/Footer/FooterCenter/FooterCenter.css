@@ -1,0 +1,18 @@
+.footerCenter {
+	display: flex;
+	flex: 0.4;
+	align-items: center;
+	justify-content: space-between;
+	max-width: 18.75rem;
+	padding: 0 6.25rem;
+}
+
+.footer__green {
+	color: #1ed15e;
+}
+
+.footer__icon:hover,
+.footer__green:hover {
+	transition: transform 0.2s ease-in-out;
+	transform: scale(1.2);
+}

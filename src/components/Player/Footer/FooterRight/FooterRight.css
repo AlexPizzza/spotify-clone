@@ -1,0 +1,10 @@
+.footerRight {
+	display: flex;
+	flex: 0.3;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.footerRight * .MuiSlider-root {
+	color: #1ed15e;
+}
