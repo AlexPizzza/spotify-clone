@@ -5,7 +5,12 @@
 	padding-right: 0.625rem;
 	flex: 0.2;
 	color: white;
+	overflow-y: scroll;
 	background-color: #040404;
+}
+
+.sidebar::-webkit-scrollbar {
+	display: none;
 }
 
 .sidebar > hr {

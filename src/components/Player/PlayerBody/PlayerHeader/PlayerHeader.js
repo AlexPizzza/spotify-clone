@@ -3,7 +3,7 @@ import './PlayerHeader.css';
 import PlayerHeaderLeft from './PlayerHeaderLeft/PlayerHeaderLeft';
 import PlayerHeaderRight from './PlayerHeaderRight/PlayerHeaderRight';
 
-const PlayerHeader = () => {
+const PlayerHeader = ({ spotify }) => {
 	return (
 		<div className='playerHeader'>
 			<PlayerHeaderLeft />
